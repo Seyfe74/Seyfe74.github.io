@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">   
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: lightblue;
+  }
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 900px; /* Should be removed. Only for demonstration */ 
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+<body>
+
+<h2>Welcome to my portfolio</h2>
+
+<div class="row">
+  <div class="column" style="background-color:rgb(133, 131, 145);">
+    <h2>Home</h2>
+    <p> This website displays informations about myself and projects I have worked so far.</p>
+  </div>
+  <div class="column" style="background-color:rgb(151, 139, 158);">
+    <h2>About me</h2>
+    <img src="mypic.jpg" alt= width="300" height="300">
+    <p> This section is in progress . . . </p>
+  </div>
+  <div class="column" style="background-color:rgb(169, 153, 194);">
+    <h2>Projects</h2>
+    <p> Please follow the links below to check on my projects. </p>
+
+    <p><a href="https://github.com/Seyfe74/DayTripGenerator_Proj1">Day Trip Generator Project</a></p>
+
+    <p><a href="https://github.com/Seyfe74/RPSLS_project">RPSLS Project</a></p>
+  </div>
+  <div class="column" style="background-color:rgb(203, 193, 214);">
+    <h2>Contact</h2>
+    <p> I can be reached by:</p>
+
+    <p> Phone: ###-###-####</p>
+
+    <p> Email: XXXXXXXX@gmail.com</p>
+  </div>
+  <div class="column" style="background-color:rgb(210, 202, 223);">
+    <h2>Future projects</h2>
+    <p>This section is in progress..</p>
+  </div>
+</div>
+
+</body>
+</html>
